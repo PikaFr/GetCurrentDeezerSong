@@ -21,7 +21,7 @@ The Deezer Now Playing project displays the currently playing track on your Deez
 ### Setup and Installation
 1. **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/PikaFr/GetCurrentDeezerSong.git
     ```
 2. **Navigate to the project directory:**
     ```bash
@@ -76,7 +76,7 @@ Le projet Deezer Now Playing affiche la piste actuellement en cours de lecture s
 ### Configuration et installation
 1. **Cloner le dépôt:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/PikaFr/GetCurrentDeezerSong.git
     ```
 2. **Naviguer vers le répertoire du projet:**
     ```bash
