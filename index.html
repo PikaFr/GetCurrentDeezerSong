@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deezer Now Playing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Deezer Now Playing</h1>
+        <button id="login-btn">Connectez-vous à Deezer</button>
+        <div id="player" style="display: none;">
+            <img id="album-cover" src="" alt="Album cover">
+            <div id="track-info">
+                <p id="track-title">Titre de la musique</p>
+                <p id="artist-name">Nom de l'artiste</p>
+            </div>
+            <div id="track-progress">
+                <span id="current-time">00:00</span>
+                <input type="range" id="progress-bar" min="0" max="100" value="0" disabled>
+                <span id="total-time">00:00</span>
+            </div>
+        </div>
+    </div>
+    <div id="dz-root"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
